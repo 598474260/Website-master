@@ -67,20 +67,20 @@ export default {
             ],
             kind:[
                 {
-                    title: '构建能源服务生态图',
-                    info: '让天下企业用“好”能源'
+                    title: '展台设计',
+                    info: 'Stand Design'
                 },
                 {
-                    title: '智慧能管平台',
-                    info: '基于物联网、大数据、区块链等先进技术'
+                    title: '展台搭建',
+                    info: 'Hutte is opgestel'
                 },
                 {
-                    title: '能效产品',
-                    info: '汇聚行业先进能效产品与技术'
+                    title: '展厅规划',
+                    info: 'Exhibition Hall Design'
                 },
                 {
-                    title: '根据地式能源服务大厅',
-                    info: '为您提供多种多样的综合服务'
+                    title: '展柜制作',
+                    info: 'Uitstalling kabinet produksie'
                 }
             ],
             services:[
