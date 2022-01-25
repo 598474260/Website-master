@@ -19,11 +19,13 @@
         </ul>
         <div class="home-service">
             <h1>丰富的应用场景，最优的解决方案</h1>
-            <p>引进与吸收了国内外数十位行业资深人才，聚集行业先进的产品与技术，满足不同的客户需求并提供最优解决方案，共创价值</p>
+            <p>
+              XXX是一家专业从事展览展示策划设计、制作搭建服务、展厅设计装修、活动会议策划的会展公司。公司以专业化、国际化为标准，专心致力于为提升客户品牌而不懈努力。
+            </p>
             <ul>
                 <li v-for="(item,index) in services" :key="index">
                     <div class="service-box">
-                        <img :src="`../../../static/img/services/${index+1}.jpg`">
+                        <img :src="`../../../static/img/services/${index+1}.png`">
                         <div class="service-info"><p>{{ item.info }}</p></div>
                     </div>
                     <br>
@@ -85,17 +87,25 @@ export default {
             ],
             services:[
                 {
-                    title: '政府机构',
-                    info: '“纵向到企业、横向跨行业、覆盖全工业”，实现供给侧与需求侧双向互动。'
+                    title: '一站式服务',
+                    info: '为您提供全球一站式展台设计搭建服务'
                 },
                 {
-                    title: '服务机构',
-                    info: '提供平台、智能终端、能效产品与新技术，实现“能源互联网+售电+能源服务”的综合能源服务。'
+                    title: '全程跟踪',
+                    info: '前中后期都有相关工作人员跟踪，确保项目完工'
                 },
                 {
-                    title: '能源用户',
-                    info: '提供能源管理系统装备、技术、人才的整体服务解决方案，降低生产成本，提高竞争力。'
-                }
+                    title: '专业团队',
+                    info: '三十位资深设计师，你想要的风格这里都有'
+                },
+              {
+                title: '品质保证',
+                info: '以专业化、国际化为标准，专心致力于提升客户品牌'
+              },
+              {
+                title: '资质荣誉',
+                info: '发展至今、满载荣誉，是客户对我们的信任和肯定'
+              }
             ]
         }
     },
@@ -251,15 +261,15 @@ export default {
             margin-top: 5%;
             padding: 0 10%;
             display: grid;
-            grid-template-columns: repeat(3,33.33333%);
+            grid-template-columns: 300px 320px 320px 320px 320px;
             li {
                 .service-box {
                     margin-left: 50%;
                     transform: translateX(-50%);
                     display: flex;
                     overflow: hidden;
-                    width: 200px;
-                    height: 200px;
+                    width: 120px;
+                    height: 120px;
                     border-radius: 50%;
                     img, .service-info {
                         transition: all 0.4s ease-in-out 0s;
